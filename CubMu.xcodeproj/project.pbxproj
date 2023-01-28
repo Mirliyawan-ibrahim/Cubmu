@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51172B272984403900DD2407 /* CubMuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B262984403900DD2407 /* CubMuApp.swift */; };
+		51172B292984403900DD2407 /* AllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B282984403900DD2407 /* AllView.swift */; };
+		51172B2B2984403B00DD2407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51172B2A2984403B00DD2407 /* Assets.xcassets */; };
+		51172B2E2984403B00DD2407 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51172B2D2984403B00DD2407 /* Preview Assets.xcassets */; };
+		51172B3A2984422300DD2407 /* CouponApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B392984422300DD2407 /* CouponApi.swift */; };
+		51172B3C298442D600DD2407 /* CouponService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B3B298442D600DD2407 /* CouponService.swift */; };
+		51172B3F2984442C00DD2407 /* ErrorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B3E2984442C00DD2407 /* ErrorUtils.swift */; };
+		51172B41298444C500DD2407 /* CouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B40298444C500DD2407 /* CouponModel.swift */; };
+		51172B43298446BE00DD2407 /* CouponViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B42298446BE00DD2407 /* CouponViewModel.swift */; };
+		51172B4629845BBD00DD2407 /* CouponCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B4529845BBD00DD2407 /* CouponCardComponent.swift */; };
+		51172B4F298460C100DD2407 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51172B4E298460C100DD2407 /* Mulish-Bold.ttf */; };
+		51172B51298460D000DD2407 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51172B50298460D000DD2407 /* Mulish-Regular.ttf */; };
+		51172B542984616C00DD2407 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B532984616B00DD2407 /* Constans.swift */; };
+		51172B562984E3ED00DD2407 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B552984E3ED00DD2407 /* TabbarView.swift */; };
+		51172B582984E8E100DD2407 /* CouponRedeemDetailComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B572984E8E000DD2407 /* CouponRedeemDetailComponent.swift */; };
+		51172B5D29851ABE00DD2407 /* CustomCornerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B5C29851ABE00DD2407 /* CustomCornerComponent.swift */; };
+		51172B60298578B100DD2407 /* SearchBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B5F298578B100DD2407 /* SearchBarComponent.swift */; };
+		51172B62298587A000DD2407 /* PreLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51172B61298587A000DD2407 /* PreLaunchView.swift */; };
+		E774D7AD88B26F6BD9417098 /* Pods_CubMu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851B31EB440F12600C8F2B0A /* Pods_CubMu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51172B232984403900DD2407 /* CubMu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubMu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51172B262984403900DD2407 /* CubMuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubMuApp.swift; sourceTree = "<group>"; };
+		51172B282984403900DD2407 /* AllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllView.swift; sourceTree = "<group>"; };
+		51172B2A2984403B00DD2407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51172B2D2984403B00DD2407 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51172B392984422300DD2407 /* CouponApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponApi.swift; sourceTree = "<group>"; };
+		51172B3B298442D600DD2407 /* CouponService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponService.swift; sourceTree = "<group>"; };
+		51172B3E2984442C00DD2407 /* ErrorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorUtils.swift; sourceTree = "<group>"; };
+		51172B40298444C500DD2407 /* CouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponModel.swift; sourceTree = "<group>"; };
+		51172B42298446BE00DD2407 /* CouponViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewModel.swift; sourceTree = "<group>"; };
+		51172B4529845BBD00DD2407 /* CouponCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponCardComponent.swift; sourceTree = "<group>"; };
+		51172B4D2984602800DD2407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		51172B4E298460C100DD2407 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		51172B50298460D000DD2407 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		51172B532984616B00DD2407 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		51172B552984E3ED00DD2407 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		51172B572984E8E000DD2407 /* CouponRedeemDetailComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponRedeemDetailComponent.swift; sourceTree = "<group>"; };
+		51172B5C29851ABE00DD2407 /* CustomCornerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerComponent.swift; sourceTree = "<group>"; };
+		51172B5F298578B100DD2407 /* SearchBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarComponent.swift; sourceTree = "<group>"; };
+		51172B61298587A000DD2407 /* PreLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunchView.swift; sourceTree = "<group>"; };
+		851B31EB440F12600C8F2B0A /* Pods_CubMu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubMu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C004B1F5B06C8F5C0D798DC /* Pods-CubMu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubMu.debug.xcconfig"; path = "Target Support Files/Pods-CubMu/Pods-CubMu.debug.xcconfig"; sourceTree = "<group>"; };
+		AFFD991B9E0950C1923156E5 /* Pods-CubMu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubMu.release.xcconfig"; path = "Target Support Files/Pods-CubMu/Pods-CubMu.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51172B202984403900DD2407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E774D7AD88B26F6BD9417098 /* Pods_CubMu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42AEB70B22260F50B1D11FDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C004B1F5B06C8F5C0D798DC /* Pods-CubMu.debug.xcconfig */,
+				AFFD991B9E0950C1923156E5 /* Pods-CubMu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		51172B1A2984403900DD2407 = {
+			isa = PBXGroup;
+			children = (
+				51172B252984403900DD2407 /* CubMu */,
+				51172B242984403900DD2407 /* Products */,
+				42AEB70B22260F50B1D11FDB /* Pods */,
+				5BC5638B80ECDB84B0FC87FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51172B242984403900DD2407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51172B232984403900DD2407 /* CubMu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51172B252984403900DD2407 /* CubMu */ = {
+			isa = PBXGroup;
+			children = (
+				51172B522984615C00DD2407 /* Preferences */,
+				51172B4729845FEA00DD2407 /* Fonts */,
+				51172B4429845BA600DD2407 /* Component */,
+				51172B3D298443F800DD2407 /* Utils */,
+				51172B382984419000DD2407 /* Api */,
+				51172B372984418700DD2407 /* Service */,
+				51172B362984418100DD2407 /* View */,
+				51172B352984417500DD2407 /* ViewModel */,
+				51172B342984416B00DD2407 /* Model */,
+				51172B262984403900DD2407 /* CubMuApp.swift */,
+				51172B4D2984602800DD2407 /* Info.plist */,
+				51172B2A2984403B00DD2407 /* Assets.xcassets */,
+				51172B2C2984403B00DD2407 /* Preview Content */,
+			);
+			path = CubMu;
+			sourceTree = "<group>";
+		};
+		51172B2C2984403B00DD2407 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51172B2D2984403B00DD2407 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51172B342984416B00DD2407 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51172B40298444C500DD2407 /* CouponModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51172B352984417500DD2407 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				51172B42298446BE00DD2407 /* CouponViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		51172B362984418100DD2407 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51172B282984403900DD2407 /* AllView.swift */,
+				51172B552984E3ED00DD2407 /* TabbarView.swift */,
+				51172B61298587A000DD2407 /* PreLaunchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51172B372984418700DD2407 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				51172B3B298442D600DD2407 /* CouponService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		51172B382984419000DD2407 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				51172B392984422300DD2407 /* CouponApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		51172B3D298443F800DD2407 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				51172B3E2984442C00DD2407 /* ErrorUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		51172B4429845BA600DD2407 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				51172B5E298578A000DD2407 /* SearchBar */,
+				51172B5B29851AA700DD2407 /* Custom */,
+				51172B5A2984E95100DD2407 /* Header */,
+				51172B592984E93C00DD2407 /* Coupon */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		51172B4729845FEA00DD2407 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51172B482984600200DD2407 /* Mulish */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		51172B482984600200DD2407 /* Mulish */ = {
+			isa = PBXGroup;
+			children = (
+				51172B50298460D000DD2407 /* Mulish-Regular.ttf */,
+				51172B4E298460C100DD2407 /* Mulish-Bold.ttf */,
+			);
+			path = Mulish;
+			sourceTree = "<group>";
+		};
+		51172B522984615C00DD2407 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				51172B532984616B00DD2407 /* Constans.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		51172B592984E93C00DD2407 /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				51172B4529845BBD00DD2407 /* CouponCardComponent.swift */,
+				51172B572984E8E000DD2407 /* CouponRedeemDetailComponent.swift */,
+			);
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		51172B5A2984E95100DD2407 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		51172B5B29851AA700DD2407 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				51172B5C29851ABE00DD2407 /* CustomCornerComponent.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		51172B5E298578A000DD2407 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				51172B5F298578B100DD2407 /* SearchBarComponent.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		5BC5638B80ECDB84B0FC87FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851B31EB440F12600C8F2B0A /* Pods_CubMu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51172B222984403900DD2407 /* CubMu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51172B312984403B00DD2407 /* Build configuration list for PBXNativeTarget "CubMu" */;
+			buildPhases = (
+				EDD1BCB21D00458E98247FD4 /* [CP] Check Pods Manifest.lock */,
+				51172B1F2984403900DD2407 /* Sources */,
+				51172B202984403900DD2407 /* Frameworks */,
+				51172B212984403900DD2407 /* Resources */,
+				55265586EC2264B44E22CAF3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CubMu;
+			productName = CubMu;
+			productReference = 51172B232984403900DD2407 /* CubMu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51172B1B2984403900DD2407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					51172B222984403900DD2407 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 51172B1E2984403900DD2407 /* Build configuration list for PBXProject "CubMu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51172B1A2984403900DD2407;
+			productRefGroup = 51172B242984403900DD2407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51172B222984403900DD2407 /* CubMu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51172B212984403900DD2407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51172B4F298460C100DD2407 /* Mulish-Bold.ttf in Resources */,
+				51172B2E2984403B00DD2407 /* Preview Assets.xcassets in Resources */,
+				51172B2B2984403B00DD2407 /* Assets.xcassets in Resources */,
+				51172B51298460D000DD2407 /* Mulish-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55265586EC2264B44E22CAF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CubMu/Pods-CubMu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CubMu/Pods-CubMu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CubMu/Pods-CubMu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD1BCB21D00458E98247FD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CubMu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51172B1F2984403900DD2407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51172B3A2984422300DD2407 /* CouponApi.swift in Sources */,
+				51172B3C298442D600DD2407 /* CouponService.swift in Sources */,
+				51172B542984616C00DD2407 /* Constans.swift in Sources */,
+				51172B3F2984442C00DD2407 /* ErrorUtils.swift in Sources */,
+				51172B292984403900DD2407 /* AllView.swift in Sources */,
+				51172B60298578B100DD2407 /* SearchBarComponent.swift in Sources */,
+				51172B272984403900DD2407 /* CubMuApp.swift in Sources */,
+				51172B62298587A000DD2407 /* PreLaunchView.swift in Sources */,
+				51172B4629845BBD00DD2407 /* CouponCardComponent.swift in Sources */,
+				51172B43298446BE00DD2407 /* CouponViewModel.swift in Sources */,
+				51172B562984E3ED00DD2407 /* TabbarView.swift in Sources */,
+				51172B5D29851ABE00DD2407 /* CustomCornerComponent.swift in Sources */,
+				51172B41298444C500DD2407 /* CouponModel.swift in Sources */,
+				51172B582984E8E100DD2407 /* CouponRedeemDetailComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		51172B2F2984403B00DD2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51172B302984403B00DD2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51172B322984403B00DD2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C004B1F5B06C8F5C0D798DC /* Pods-CubMu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CubMu/Preview Content\"";
+				DEVELOPMENT_TEAM = AR73WK2P6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CubMu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CubMu;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mirliyawan-Ibrahim.CubMu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51172B332984403B00DD2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFD991B9E0950C1923156E5 /* Pods-CubMu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CubMu/Preview Content\"";
+				DEVELOPMENT_TEAM = AR73WK2P6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CubMu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CubMu;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mirliyawan-Ibrahim.CubMu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51172B1E2984403900DD2407 /* Build configuration list for PBXProject "CubMu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51172B2F2984403B00DD2407 /* Debug */,
+				51172B302984403B00DD2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51172B312984403B00DD2407 /* Build configuration list for PBXNativeTarget "CubMu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51172B322984403B00DD2407 /* Debug */,
+				51172B332984403B00DD2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51172B1B2984403900DD2407 /* Project object */;
+}
